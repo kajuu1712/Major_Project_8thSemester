@@ -112,15 +112,3 @@ Step 6: Dashboard
 The dashboard is deployed on **Render** and can be accessed directly through the live link above.
 
 ---
-
-## 🔮 Future Improvements
-
-* [ ] Add LSTM (Deep Learning) model
-* [ ] Real-time stock data streaming
-* [ ] Technical indicators (RSI, MACD, Bollinger Bands)
-* [ ] Stock comparison dashboard
-* [ ] News sentiment analysis
-* [ ] Portfolio tracking system
-
-```
-```
