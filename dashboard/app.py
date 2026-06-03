@@ -1,6 +1,6 @@
 # ============================================
 # AI Stock Price Predictor - Dashboard
-# Multi-Stock | All 5 Charts | Internship 2026
+# Multi-Stock | All 5 Charts 
 # ============================================
 
 import dash
