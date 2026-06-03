@@ -4,7 +4,6 @@ This project uses historical stock market data to build a machine learning model
 
 The dashboard supports multiple stocks and allows users to explore historical trends, model predictions, trading volume, volatility, and yearly price distributions.
 
-**Internship Project | 2026**
 
 ---
 
