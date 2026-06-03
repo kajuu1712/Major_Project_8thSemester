@@ -11,7 +11,7 @@ The dashboard supports multiple stocks and allows users to explore historical tr
 ## 🌐 Live Demo
 
 **Dashboard Link:**
-[Open Dashboard](https://ai-stock-price-predictor-6qc4.onrender.com/)
+[Open Dashboard](https://major-project-8thsemester.onrender.com)
 
 ---
 
