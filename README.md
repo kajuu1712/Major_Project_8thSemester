@@ -21,7 +21,7 @@ The dashboard supports multiple stocks and allows users to explore historical tr
 
 ```bash
 git clone <your-github-repository-url>
-cd stock-predictor
+cd Major_Project_8thSemester
 ```
 
 ### Step 2 — Install Dependencies
@@ -33,6 +33,7 @@ pip install -r requirements.txt
 ### Step 3 — Run the Dashboard
 
 ```bash
+cd dashboard
 python app.py
 ```
 
