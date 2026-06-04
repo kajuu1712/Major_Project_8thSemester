@@ -239,7 +239,7 @@ app.layout = html.Div([
 
     # ── FOOTER ──────────────────────────────
     html.Div([
-        html.P("AI Stock Price Predictor  |  Linear Regression Model  |  Internship 2026",
+        html.P("AI Stock Price Predictor  |  Linear Regression Model ",
                style={'color': '#444', 'textAlign': 'center', 'margin': '0'})
     ], style={'backgroundColor': '#1a1a2e', 'padding': '20px'})
 
