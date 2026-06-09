@@ -183,7 +183,7 @@ app.layout = html.Div([
 
     # ── CHART 2 — Actual vs Predicted ───────
     html.Div([
-        html.H3("🤖 Actual vs Predicted Price",
+        html.H3(" Actual vs Predicted Price",
                 style={'color': 'white', 'padding': '15px 20px 0 20px',
                        'margin': '0'}),
         dcc.Graph(id='prediction-chart')
@@ -192,7 +192,7 @@ app.layout = html.Div([
 
     # ── CHART 3 — Volume ────────────────────
     html.Div([
-        html.H3("📊 Trading Volume Over Time",
+        html.H3(" Trading Volume Over Time",
                 style={'color': 'white', 'padding': '15px 20px 0 20px',
                        'margin': '0'}),
         dcc.Graph(id='volume-chart')
@@ -201,7 +201,7 @@ app.layout = html.Div([
 
     # ── CHART 4 — Daily Range ───────────────
     html.Div([
-        html.H3("📏 Daily Price Range — Volatility",
+        html.H3(" Daily Price Range — Volatility",
                 style={'color': 'white', 'padding': '15px 20px 0 20px',
                        'margin': '0'}),
         dcc.Graph(id='range-chart')
@@ -210,7 +210,7 @@ app.layout = html.Div([
 
     # ── CHART 5 — Yearly Box Plot ───────────
     html.Div([
-        html.H3("📅 Yearly Price Distribution",
+        html.H3(" Yearly Price Distribution",
                 style={'color': 'white', 'padding': '15px 20px 0 20px',
                        'margin': '0'}),
         dcc.Graph(id='yearly-chart')
@@ -219,7 +219,7 @@ app.layout = html.Div([
 
     # ── PREDICTION TOOL ─────────────────────
     html.Div([
-        html.H3("🔮 Predict Price for a Date",
+        html.H3(" Predict Price for a Date",
                 style={'color': 'white', 'padding': '15px 20px 0 20px',
                        'margin': '0'}),
         html.Div([
@@ -292,7 +292,7 @@ def update_stock(ticker):
             [],
             None,
             "Error loading data",
-            f"❌ {str(e)}"
+            f" {str(e)}"
         )
 
     # ── Stat Cards ──────────────────────────
@@ -419,10 +419,10 @@ def predict_for_date(selected_date, ticker):
         predicted = row['Predicted']
         error     = abs(actual - predicted)
         return [
-            html.Span(f"📅 {selected_date}     "),
-            html.Span(f"✅ Actual: ${actual:.2f}     "),
-            html.Span(f"🤖 Predicted: ${predicted:.2f}     "),
-            html.Span(f"📏 Error: ${error:.2f}",
+            html.Span(f" {selected_date}     "),
+            html.Span(f" Actual: ${actual:.2f}     "),
+            html.Span(f" Predicted: ${predicted:.2f}     "),
+            html.Span(f" Error: ${error:.2f}",
                       style={'color': '#ffaa00'})
         ]
     except Exception as e:
