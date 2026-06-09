@@ -140,7 +140,7 @@ app.layout = html.Div([
 
     # ── HEADER ──────────────────────────────
     html.Div([
-        html.H1("📈 AI Stock Price Predictor",
+        html.H1(" AI Stock Price Predictor",
                 style={'color': 'white', 'textAlign': 'center',
                        'marginBottom': '5px', 'fontSize': '32px'}),
         html.H3("Multi-Stock Machine Learning Dashboard",
